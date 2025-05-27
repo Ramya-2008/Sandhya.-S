@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>UI/UX Student Portfolio - Pallavi</title>
+    <style>
+        /* Reset & basics */
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #fdf6f0;
+            color: #333;
+            line-height: 1.6;
+        }
+        a {
+            color: #e25e5e;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover,
+        a:focus {
+            color: #b43f3f;
+            outline: none;
+        }
+        header {
+            background: #e25e5e;
+            color: white;
+            padding: 2rem 1.5rem;
+            text-align: center;
+            box-shadow: 0 3px 7px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.75rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        header p {
+            font-size: 1.2rem;
+            font-style: italic;
+            margin-top: 0.3rem;
+            color: #ffdad3;
+        }
+        hr {
+            border: none;
+            height: 3px;
+            background: #e25e5e;
+            width: 70px;
+            margin: 2rem auto;
+            border-radius: 2px;
+        }
+        section {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            background: white;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+            border-radius: 10px;
+        }
+        section#hero {
+            background: linear-gradient(130deg, #e25e5e, #ffb199);
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+            border-radius: 10px;
+            box-shadow: 0 6px 25px rgba(226, 94, 94, 0.6);
+        }
+        section#hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            letter-spacing: 1.5px;
+        }
+        section#hero p {
+            font-size: 1.2rem;
+            margin: 0.5rem 0;
+        }
+        h2 {
+            border-bottom: 3px solid #e25e5e;
+            padding-bottom: 0.3rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #b43f3f;
+        }
+        ul {
+            list-style: inside disc;
+            padding-left: 0;
+        }
+        ul ul {
+            list-style: circle;
+            margin-top: 0.3rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+        article {
+            margin-bottom: 2rem;
+        }
+        article h3 {
+            color: #b43f3f;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+        figure {
+            margin: 0;
+            margin-bottom: 1rem;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(226, 94, 94, 0.3);
+        }
+        img {
+            width: 100%;
+            display: block;
+            border-radius: 10px;
+            height: auto;
+        }
+        figcaption {
+            font-style: italic;
+            background: #ffb199;
+            color: #5f1f1f;
+            padding: 0.5rem 1rem;
+            font-size: 0.9rem;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            user-select: none;
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background: #e25e5e;
+            color: white;
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin-top: 3rem;
+        }
+        /* Contact Links style */
+        #contact ul li a {
+            font-weight: 600;
+        }
+        /* Responsive for smaller devices */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            section#hero h2 {
+                font-size: 1.8rem;
+            }
+            li {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header without Navigation -->
+    <header>
+        <h1>Pallavi</h1>
+        <p><em>Innovative UI/UX Designer & Aspiring Creative Strategist</em></p>
+        <hr />
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" aria-label="Introduction">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Hi! I'm Pallavi, a passionate UI/UX student focused on creating clean, user-friendly experiences.</p>
+        <p><strong>From 2nd sem BCA</strong></p>
+    </section>
+
+    <hr />
+
+    <!-- About Me Section -->
+    <section id="about" aria-label="About Me">
+        <h2>About Me</h2>
+        <p>
+            I'm a dedicated and detail-oriented UI/UX student with a zeal for crafting intuitive digital experiences.
+            With a solid foundation in design principles and user research, I strive to bridge the gap between users and technology.
+        </p>
+        <p>
+            I am continuously exploring new tools and techniques to enhance accessibility, usability, and aesthetics in all my projects.
+        </p>
+    </section>
+
+    <hr />
+
+    <!-- Skills Section -->
+    <section id="skills" aria-label="Skills and Tools">
+        <h2>Skills &amp; Tools</h2>
+        <ul>
+            <li>C</li>
+            <li>C++</li>
+            <li>Java</li>
+            <li>Figma</li>
+            <li>Adobe XD</li>
+            <li>Sketch</li>
+        </ul>
+    </section>
+
+    <hr />
+
+    <!-- Projects Section -->
+    <section id="projects" aria-label="Projects Showcase">
+        <h2>Featured Projects</h2>
+
+        <article>
+            <h3>Redesign of University Library Website</h3>
+            <figure>
+                <img src="https://via.placeholder.com/600x300?text=Library+Project+Screenshot" alt="Screenshot of University Library Website redesign" width="600" height="300" />
+                <figcaption>Clean and accessible redesign focused on improved navigation and search features.</figcaption>
+            </figure>
+            <p><strong>Overview:</strong> Led the redesign project improving navigation flow, accessibility compliance, and mobile responsiveness.</p>
+            <p><strong>Tools Used:</strong> Figma, Usability Testing Sessions, User Interviews</p>
+        </article>
+
+        <article>
+            <h3>Mobile App Concept - Study Buddy</h3>
+            <figure>
+                <img src="https://via.placeholder.com/600x300?text=Study+Buddy+App+Concept" alt="Mobile app concept Study Buddy" width="600" height="300" />
+                <figcaption>An app concept designed to help students organize study groups and share resources effectively.</figcaption>
+            </figure>
+            <p><strong>Overview:</strong> Designed wireframes and interactive prototypes aimed at seamless collaboration and task management.</p>
+            <p><strong>Tools Used:</strong> Adobe XD, InVision, Persona Development</p>
+        </article>
+
+        <article>
+            <h3>Redesign of Local Event Booking Platform</h3>
+            <figure>
+                <img src="https://via.placeholder.com/600x300?text=Event+Booking+Platform+Redesign" alt="Event booking platform redesign" width="600" height="300" />
+                <figcaption>Focused on improving booking flow and visual hierarchy for easier event discovery.</figcaption>
+            </figure>
+            <p><strong>Overview:</strong> Conducted user journey mapping and incorporated iterative design feedback to refine the interface.</p>
+            <p><strong>Tools Used:</strong> Sketch, Axure RP, User Journey Mapping</p>
+        </article>
+    </section>
+
+    <hr />
+
+    <!-- Contact Section -->
+    <section id="contact" aria-label="Contact Information">
+        <h2>Contact Me</h2>
+        <p>I'd love to connect and collaborate! Reach out to me:</p>
+        <ul>
+            <li>Email: <a href="mailto:pallavivasu0602@gmail.com">pallavivasu0602@gmail.com</a></li>
+            <li>Phone: 7483103384</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/pallavi" target="_blank" rel="noopener noreferrer">linkedin.com/in/pallavi</a></li>
+            <li>Portfolio (This Site): <a href="uiux_student_portfolio.html">uiux_student_portfolio.html</a></li>
+        </ul>
+    </section>
+
+    <hr />
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Pallavi. All rights reserved.</p>
+    </footer>
+</body>
+</html>
